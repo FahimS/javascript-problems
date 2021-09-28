@@ -6,21 +6,21 @@ if (business > minister) {
     if (business > sochib) {
         console.log("businessman is bigger");
     }
-    else{
+    else {
         console.log("sochib is bigger");
     }
 }
 else {
-   if(minister>sochib){
-    console.log("misinter is bigger");
-   }
-   else{
-    console.log("sochib is bigger");
-   }
+    if (minister > sochib) {
+        console.log("misinter is bigger");
+    }
+    else {
+        console.log("sochib is bigger");
+    }
 }
 
 
 //.......................
 
-var max =Math.max(business,minister, sochib);
+var max = Math.max(business, minister, sochib);
 console.log(max);
